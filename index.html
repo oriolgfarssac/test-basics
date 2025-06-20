@@ -1,0 +1,60 @@
+<!DOCTYPE html> <!-- Esto le dice al navegador que estamos usando HTML5 -->
+<html lang="es"> <!-- Idioma principal de la página -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Asegura que los caracteres especiales se vean bien -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación a móviles -->
+    <title>Resumen de HTML</title> <!-- Título que aparece en la pestaña -->
+
+    <!-- Conectamos el archivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Hola, soy un título (h1)</h1>
+        <p id="mensaje">Este texto cambiará con JavaScript</p>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Subtítulo -->
+        <h2>Subtítulo (h2)</h2>
+        
+        <!-- Párrafo -->
+        <p>Esto es un párrafo. Se usa para escribir texto normal.</p>
+
+        <!-- Lista no ordenada -->
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+
+        <!-- Imagen -->
+        <img src="https://via.placeholder.com/200" alt="Imagen de prueba">
+
+        <!-- Enlace -->
+        <a href="https://developer.mozilla.org/es/" target="_blank">Visita MDN</a>
+
+        <!-- Botón -->
+        <button id="miBoton">Haz clic aquí</button>
+
+        <!-- Formulario -->
+        <form id="miFormulario">
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Página de ejemplo</p>
+    </footer>
+
+    <!-- Conectamos el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
