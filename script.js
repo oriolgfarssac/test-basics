@@ -18,7 +18,7 @@ saludar();
 function saludarA(nombre) {
     console.log("Hola " + nombre);
 }
-saludarA("Lucía");
+saludarA("Fernando cabron");
 
 // Condicional
 let hora = 10;
